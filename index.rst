@@ -11,7 +11,7 @@
 
 **Times: 09:00 - 14:00 MST, UTC-7**
 
-**Dates: Thursday 5th, Friday 6th, and Saturday 7th (optional day) November 2020**
+**Dates: Friday (optional day) November 19th 2021**
 
 **Ready to join the workshop? Follow these steps:**
 
@@ -21,7 +21,7 @@ Please use your institutional email address, and if you don't have an |ORCID ID|
 
 **Step 2: Sign up for Workshop** |Workshop Enrollment| 
 
-**Step 3: Review this website -- all of our training materials will be posted or linked from here**
+**Step 3: Review this website -- training materials will be posted or linked from here**
 
 ..
     #### Comment: Use short, imperative titles e.g. Upload and share data, uploading and
@@ -32,7 +32,7 @@ Goal
 
 The goals of the workshop are to allow you as new data scientists to leave with an understanding of the NEON Data API and working with NEON AOP data and to introduce CyVerse as a platform for conducting data intensive scientific research. 
 
-You will have opportunities to work in your preferred Integrated Development Environment (IDE) in the public research cyberinfrastructure. CyVerse enables us to work with large and very large analyses. You will be able to work with NEON AOP data across many sites and many years worth of data without ever having to "download" anything over your local internet service provider.
+You will have opportunities to work in your preferred Integrated Development Environment (IDE) in the public research cyberinfrastructure. CyVerse enables you to work with large and very large analyses. You will be able to work with NEON AOP data across many sites and many years worth of data without ever having to "download" anything over your local internet service provider.
 
 
 ..
@@ -161,19 +161,14 @@ Application(s) used
       - Description
       - Quick Launch
       - GitHub repositories
-    * - Workspace 
-      - ``latest``
-      - |all-the-things|
-      -	|workspace-geospatial-latest|_
-      - |CyVerse Workspace GitHub|
     * - RStudio 
-      - ``3.6.3``
+      - ``latest``
       - Rocker Project RStudio with geospatial applications pre-installed
-      - |rstudio-geospatial-3.6.3|_
-      - |CyVerse R Studio GitHub|
+      - |rstudio-geospatial-latest|_
+      - |CyVerse RStudio GitHub|
     * - JupyterLab 
-      - ``2.2.5``
-      - Jupyter Lab Data Science Notebook with Geospatial applications pre-installed
+      - ``2.2.0``
+      - Jupyter Lab Data Science Notebook with geospatial applications pre-installed
       - |jupyterlab-geospatial|_
       - |CyVerse JupyterLab GitHub|
     * - GIS Desktop
@@ -264,23 +259,20 @@ Input and example data
 
 .. |Workshop Enrollment|  raw:: html
 
-   <a href="https://user.cyverse.org/workshops/56/overview" target="blank">Workshop Enrollment</a>
+   <a href="https://user.cyverse.org/workshops/83/overview" target="blank">Workshop Enrollment</a>
 
 .. |ORCID ID| raw:: html
 
    <a href="https://orcid.org/" target="blank">ORCID ID</a>
 
-.. |workspace-geospatial-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
-.. _workspace-geospatial-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=b19b3b00-0b6f-4c28-9d0f-23c965264309&app-id=580bbc6e-161e-11eb-880c-008cfa5ae621
-
 .. |CyVerse Workspace GitHub|  raw:: html
  
    <a href="https://github.com/tyson-swetnam/workspace" target="blank">CyVerse Workspace GitHub</a>
   
-.. |rstudio-geospatial-3.6.3| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
-.. _rstudio-geospatial-3.6.3: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=abce1ed0-8fb4-4cc5-bef3-3a9530446dc6&app-id=1903c788-1947-11eb-8f3e-008cfa5ae621
+.. |rstudio-geospatial-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
+.. _rstudio-geospatial-latest: https://de.cyverse.org/apps/de/07e2b2e6-becd-11e9-b524-008cfa5ae621/launch
 
-.. |CyVerse R Studio GitHub|  raw:: html
+.. |CyVerse RStudio GitHub|  raw:: html
 
    <a href="https://github.com/cyverse-vice/rstudio-geospatial" target="blank">CyVerse RStudio GitHub</a>
    
@@ -290,10 +282,10 @@ Input and example data
    <a href="https://github.com/cyverse-vice/jupyterlab-datascience" target="blank">CyVerse JupyterLab GitHub</a>
 
 .. |jupyterlab-geospatial| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
-.. _jupyterlab-geospatial: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=63afd24c-9acc-4a8c-85ef-58b634a2ebc2&app-id=c940912c-fcea-11ea-b07f-008cfa5ae621
+.. _jupyterlab-geospatial: https://de.cyverse.org/apps/de/5eb08814-6b1a-11eb-9180-008cfa5ae621/launch
 
 .. |QGIS-Xpra| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
-.. _QGIS-Xpra: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=80e972aa-c2ce-4e62-a4ba-3b8e320940b3&app-id=a847402e-ff2a-11e9-815d-008cfa5ae621
+.. _QGIS-Xpra: https://de.cyverse.org/apps/de/f3f8cc78-23d5-11ec-abcf-008cfa5ae621/launch
 
 .. |QGIS Xpra GitHub| raw:: html
    
@@ -313,7 +305,7 @@ Input and example data
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/2020-neon-aop-workshop" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/2021-neon-aop-workshop" target="blank">Github Repo Link</a>
 
 .. |all-the-things| image:: ./img/all-the-things.png
     :width: 400

@@ -71,7 +71,7 @@ def setup(app):
         True
     )
     app.add_transform(AutoStructify)
-   app.add_css_file('cyverse.css')
+    app.add_css_file('cyverse.css')
     app.add_css_file('detail-expand.css')
     app.add_css_file('question-answer.css')
     #uncomment to enable table sorting app.add_javascript('jquery.tablesorter.min.js')

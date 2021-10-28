@@ -10,9 +10,9 @@
 Agenda
 ------
 
-We will attempt to cover each of these Content pages during the workshop.
+We will cover the CyVerse Discovery Environment and Jupyter sections of the workshop. We will not be covering RStudio materials, or Git during the one day in-person event.
 
-As we run out of time for each section, you may need to complete the material self-paced as homework after the in-person sessions end each day.
+As we run out of time for each section, you can go back and complete the material as self-paced after the in-person time together.
 
 ..
 	#### Comment: short text description goes here ####
@@ -48,12 +48,12 @@ As we run out of time for each section, you may need to complete the material se
     - Overview of course materials
     - This website
   * - 0910-0930
-    - CyVerse Walkthrough
+    - Data science workbench walkthrough
     - Tyson
     - `Discovery Environment Overview <./step1.html>`_
     - `https://de.cyverse.org <https://de.cyverse.org>`_
   * - 0930-1000
-    - Jupyter, RStudio, Remote Desktops in VICE
+    - Jupyter, RStudio, & Virtual desktops in VICE
     - Tyson
     - Intro to VICE apps in Discovery Environment 
     -  `Visual Interactive Computing <./step2.html>`_

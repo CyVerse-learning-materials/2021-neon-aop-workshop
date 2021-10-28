@@ -31,7 +31,7 @@ As we run out of time for each section, you can go back and complete the materia
       - 
       - ``cyverse``
 
-*Day 1 2021-11-19*
+*2021-11-19*
 ~~~~~~~~~~~~~~~~~~~
 
 .. list-table::
@@ -52,52 +52,47 @@ As we run out of time for each section, you can go back and complete the materia
     - Tyson
     - `Discovery Environment Overview <./step1.html>`_
     - `https://de.cyverse.org <https://de.cyverse.org>`_
-  * - 0930-1000
+  * - 0930-1030
     - Jupyter, RStudio, & Virtual desktops in VICE
     - Tyson
     - Intro to VICE apps in Discovery Environment 
     -  `Visual Interactive Computing <./step2.html>`_
-  * - 1000-1010
-    - Break
-    -
-    -
-    -
-  * - 1010-1100   
+  * - 1030-1045   
     - Intro to NEON Data API
     - Bridget
     - Download and Explore NEON Data
-    - `https://www.neonscience.org/download-explore-neon-data <https://www.neonscience.org/download-explore-neon-data>`_
-  * - 1100-1200
-    - Brunch, Early-, Regular-, Late- Lunch Break
-    -
-    - Eat. Chat.
-    -
-  * - 1200-1250
-    - Jupyter Lab
-    - Bridget
-    - Working with NEON Hyperspectral data in Jupyter with Python
-    - 
-  * - 1250-1300
+    - `https://www.neonscience.org/resources/learning-hub/tutorials/neon-api-01-introduction-requests <https://www.neonscience.org/resources/learning-hub/tutorials/neon-api-01-introduction-requests>`_
+  * - 1045-1100
     - Break
     -
     -
-    -
-  * - 1300-1430
-    - Jupyter Lab Continued
+    -  
+  * - 1100-1200
+    - Jupyter Lab Geospatial Applications
     - Bridget
     - Working with NEON Hyperspectral data in Jupyter with Python
+    -     
+  * - 1200-1300
+    - Lunch Break
+    -
+    - Eat. Chat.
+    -  
+  * - 1300-1400
+    - Data Management in CyVerse
+    - Tyson
+    - `Managing data in the cloud <./step4.html>`_
     - 
+  * - 1400-1430
+    - Reproducibility with GitHub
+    - Tyson
+    - `Git Projects <./step3.html>`_
+    - Building your own Git projects, and reusing NEON Science projects   
   * - 1430-1445
     - Break
     -
     -
     -  
-  * - 1445-1530
-    - Data Management
-    - Tyson
-    - `Managing data in the cloud <./step4.html>`_
-    - 
-  * - 1530-1645
+  * - 1445-1645
     - Hands-On with NEON Data
     - Tyson & Bridget
     - Bring your own Analyses 

@@ -1,4 +1,4 @@
-# Version 2.0, May 2020
+# Version 2.1, Oct 2021
 # -*- coding: utf-8 -*-
 
 import sys
@@ -10,11 +10,11 @@ extensions = [
     'sphinx.ext.autodoc',
 ]
 
-project = '2020-neon-aop-workshop'
-copyright = '2020, CyVerse'
+project = '2021-neon-aop-workshop'
+copyright = '2021, CyVerse'
 author = 'TL Swetnam <tswetnam@cyverse.org>'
-version = '2.0'
-release = '2.0'
+version = '2.1'
+release = '2.1'
 
 language = None
 source_parsers = {

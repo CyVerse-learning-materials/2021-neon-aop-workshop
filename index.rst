@@ -59,9 +59,7 @@ Who to contact if this guide needs fixing.
     * - Bridget Hass
       - NEON / Battelle Inc
       - ``bridgethass``  
-    * - Donal O'Leary
-      - NEON / Battelle Inc
-      - ``donal-at-NEON``
+
 ----
 
 Content Links

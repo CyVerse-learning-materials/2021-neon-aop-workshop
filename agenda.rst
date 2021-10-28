@@ -83,7 +83,7 @@ As we run out of time for each section, you may need to complete the material se
     -
     -
   * - 1300-1430
-   - Jupyter Lab Continued
+    - Jupyter Lab Continued
     - Bridget
     - Working with NEON Hyperspectral data in Jupyter with Python
     - 

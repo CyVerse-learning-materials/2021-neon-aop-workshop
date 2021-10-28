@@ -9,9 +9,11 @@
 **CyVerse NEON Airborne Observation Platform Workshop**
 =======================================================
 
-**Times: 09:00 - 14:00 MST, UTC-7**
+**Location:**
 
-**Dates: Friday (optional day) November 19th 2021**
+**Times: 09:00 - 17:00 MST, UTC-7**
+
+**Date: Friday November 19th 2021**
 
 **Ready to join the workshop? Follow these steps:**
 
@@ -167,7 +169,7 @@ Application(s) used
       - |rstudio-geospatial-latest|_
       - |CyVerse RStudio GitHub|
     * - JupyterLab 
-      - ``2.2.0``
+      - ``2.2.9``
       - Jupyter Lab Data Science Notebook with geospatial applications pre-installed
       - |jupyterlab-geospatial|_
       - |CyVerse JupyterLab GitHub|

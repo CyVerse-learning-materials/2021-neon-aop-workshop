@@ -6,17 +6,17 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-
 Your Workbench
 --------------
 
 **Description:**
 
-We have integrated several Docker containers into the CyVerse Discovery Environment workbench |VICE| platform, and made them "Public" for anyone with a CyVerse account to use.
+CyVerse have integrated several Docker containers into the Discovery Environment data science workbench |VICE| platform, 
+and made them "Public" for anyone with a CyVerse account to use.
 
-We have also copied some of the NEON example data sets to the CyVerse Data Store, along with the completed ``.ipynb`` and ``.Rmd`` notebooks and ``.r`` scripts
+NEON example data sets are rehosted on the CyVerse Data Store, along with complete ``.ipynb`` and ``.Rmd`` notebooks and ``.r`` scripts
 
-In this section, we're going to walk through the required steps of starting an interactive analysis, and shutting it down when you're done.
+In this section, we're going to walk through the required steps of selecting an app, importing data, starting an interactive analysis, and shutting it down.
 
 |Discovery Environment Guide|
 
@@ -25,35 +25,35 @@ In this section, we're going to walk through the required steps of starting an i
 
 ----
 
-
 *Starting a VICE app*
 ~~~~~~~~~~~~~~~~~~~~~
 
 **1.** Log into the Discovery Environment `https://de.cyverse.org <https://de.cyverse.org>`_
 
- Or click this quick launch button to be taken directly to the app:
+   If you click this Quick Launch button you will be taken directly to the RStudio Geospatial featured app:
 
-   - RStudio: |rstudio-geospatial-3.6.3|_
+   - RStudio Geospatial Latest: |rstudio-geospatial-latest|_
 
-**2.** Click the |apps_button| 'Apps' button and a new window should open. 
+**2.** Click the |apps_button| 'Apps' icon in the table of contents in the left frame. 
 
-   Search using the query "rstudio geospatial" and see what comes up.
+   Featured Apps use verified images with the |shield| shield icon,_
+
+   |apps_search1|
+
+   Alternatevely, query "rstudio geospatial" in the search bar and see what comes up,
   
-   |apps_search|
+   |apps_search2|
 
-   Also, under the "My Apps" tab click on the "My Communities" section and "NEON" Group should appear.
 
-   Click on the Hyperlinked name and a new window should open. 
+**3.** After you select an app, you need to fill out four parameter fields. 
 
-**3.** In the pop-up for the particular App you have a few options.
-
-  **i.**   ``Analysis Name`` - you can change the name of the analysis if you like, the default name is typically ``<the-app-name>_analysis1``
+  **i.**   ``Analysis Info`` - you can change the name of the analysis if you like, the default name is typically ``<the-app-name>_analysis1``
 
    Your analysis will run, and when it completes, it will write any data that you have in the WORKING DIRECTORY of the container back to the Data Store in your Analyses folder, e.g. ``/iplant/home/<username>/analyses/<the-app-name>_analysis1-<DATE-TIME-of-job-starting>``
 
-  **ii.** The second section is ``Input Data`` and has options for adding (1) a folder, (2) a single file, or (3) multiple files. 
+  **ii.** The second section is ``Parameters`` and has options for adding (1) a single file, or (2) a folder with many files. 
 
-   For our use case today, we're going to add a folder from the data store.
+   For our use case today, we're going to add a shared folder from the community released data space.
 
   |add_data_window2|
 
@@ -68,23 +68,23 @@ In this section, we're going to walk through the required steps of starting an i
      
      A faster option is to start the container without the data, and then copy the data into the running container later using WebDav, iCommands, or a file system mount.
 
-   **iii.** The third section is ``Resource Requirements``, again you can leave the default settings, or you can modify them.
+   **iii.** The third section is ``Advanced Settings (optional)``, again you can leave the default settings, or you can modify them.
 
    You can set the ``Minimum CPU`` to the minimum number of cores your app requires. If you do not select anything, the app will still be able to use multiple cores on the shared node on which it is deployed.
 
-   You can set the ``Minimum RAM`` to the minimum number of GB of RAM you think your app requires. 
+   You can set the ``Minimum Memory`` to the minimum number of GB of RAM you think your app requires. 
 
    You can set the ``Minimum Disk Space`` to the minimum amount of scratch space you think your data will need.
 
-   **iv.** After you've set the analysis name, input data, and resource requirements, click ``Launch Analysis``
+   **iv.** The last section is ``Review and Launch``, click "Launch Analysis" to start the app.
 
-    Watch closely, you'll see a notification at the top of your screen and in the Bell icon in the upper right.
+    The screen should change to a VICE Loading screen
 
-**4.** Open the |analyses_button| icon labeled "Analyses" to view your running analysis.
+    |vice_loading|
 
-    Look for your App by Name. 
+**4.** Click the |analyses_button| icon labeled "Analyses" to view your running and stopped apps.
 
-    See the square icon with an arrow pointed up to the right? Click on that icon and a new browser tab will open.
+    The square icon with an arrow pointed up to the right |goto|_ Click on that icon and a new browser tab will open.
 
     |analyses_window|
 
@@ -108,11 +108,13 @@ In this section, we're going to walk through the required steps of starting an i
 
    ``Go to output folder`` will take you to the output folder in yout ``/analyses`` Data store path. This output folder will not exist until AFTER you end the running analysis.
 
-   ``View Logs`` will show you the echo of the container job starting -- this is very useful for debugging containers that are not acting appropriately.
-
-   ``View Parameters`` will show you the parameters you set when launched -- good for reviewing stopped containers.
-
    ``Relaunch`` -- if you have stopped your analysis, you can re-launch it with the same parameters as before. Useful for coming back to a second or third day.
+
+   ``Rename`` You can rename your analysis
+
+   ``Update Comments`` You can update your comments about your analysis. 
+
+   ``Go to analyses`` Opens your analyses in a new window in the browser.
 
    ``View Analysis Info`` will show you the status and Analysis ID -- this is useful when asking for support from the CyVerse team.
 
@@ -120,13 +122,7 @@ In this section, we're going to walk through the required steps of starting an i
 
    ``Complete and Save Outputs`` **DANGER Zone** -- when you click this, your job will be stopped and your analysis results will be copied to the ``/analyses`` folder
 
-   ``Cancel`` **DANGER Zone** -- when you click this, your job will be stopped and your results will not be written back to the data store.
-
    ``Delete`` -- this option is only available after you have stopped your App and want to remove the information from your Analysis window
-
-   ``Rename`` You can rename your analysis
-
-   ``Update Comments`` You can update your comments about your analysis. 
 
 *Stopping a VICE app*
 ~~~~~~~~~~~~~~~~~~~~~
@@ -207,7 +203,21 @@ Any data which are in the working directory of ``/iplant/home/<username>/analyse
     :width: 25
     :height: 25
 
+.. |shield| image:: ./img/de/shield.png
+    :width: 25
+    :height: 25
+
 .. |apps_button| image:: ./img/de/apps_icon.png
+    :width: 25
+    :height: 25
+
+.. |apps_search1| image:: ./img/de/apps_search1.png
+    :width: 700
+
+.. |apps_search2| image:: ./img/de/apps_search2.png
+    :width: 700
+    
+.. |goto| image:: ./img/de/goto.png
     :width: 25
     :height: 25
 
@@ -215,8 +225,9 @@ Any data which are in the working directory of ``/iplant/home/<username>/analyse
     :width: 25
     :height: 25
 
-.. |apps_search| image:: ./img/de/apps_search.png
-    :width: 400
+.. |vice_loading| image:: ./img/de/vice-loading.png
+    :width: 700
+
 
 .. |analyses_window| image:: ./img/de/analyses_window.png
     :width: 400
@@ -230,11 +241,8 @@ Any data which are in the working directory of ``/iplant/home/<username>/analyse
 .. |add_data_window2| image:: ./img/de/add_data_window2.png
     :width: 400
 
-.. |workspace-geospatial-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
-.. _workspace-geospatial-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=b19b3b00-0b6f-4c28-9d0f-23c965264309&app-id=580bbc6e-161e-11eb-880c-008cfa5ae621
-
-.. |rstudio-geospatial-3.6.3| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
-.. _rstudio-geospatial-3.6.3: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=abce1ed0-8fb4-4cc5-bef3-3a9530446dc6&app-id=1903c788-1947-11eb-8f3e-008cfa5ae621
+.. |rstudio-geospatial-latest| image:: https://img.shields.io/badge/Geospatial-latest-blue?style=plastic&logo=rstudio
+.. _rstudio-geospatial-latest: https://de.cyverse.org/apps/de/07e2b2e6-becd-11e9-b524-008cfa5ae621/launch
 
 .. |Github Repo Link|  raw:: html
 

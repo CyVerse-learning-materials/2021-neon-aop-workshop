@@ -279,10 +279,7 @@ You should now understand the basics of the Classic Discovery Environment Interf
     :width: 700
 
 .. |data_window| image:: ./img/de/data_window.png
-    :width: 400
-
-.. |neon_community| image:: ./img/de/neon_my_community.png
-    :width: 400
+    :width: 700
 
 .. |Cyberduck|  raw:: html
 

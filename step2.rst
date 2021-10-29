@@ -61,7 +61,6 @@ In this section, we're going to walk through the required steps of selecting an 
 
   |add_data_window1|
 
-
     .. admonition:: Input Data (not required)
 
      When you launch a new VICE app, you can add data to it before it is launched. If you do this, it will slow down the launch, as the service must copy the data from the data store into your new instance before it becomes available. 
@@ -84,23 +83,25 @@ In this section, we're going to walk through the required steps of selecting an 
 
 **4.** Click the |analyses_button| icon labeled "Analyses" to view your running and stopped apps.
 
-    The square icon with an arrow pointed up to the right |goto|_ Click on that icon and a new browser tab will open.
+    click the square icon with an arrow pointed up to the right |goto| and a new browser tab will open.
 
     |analyses_window|
 
-    Alternately, click the Bell icon in the upper right to see your notifications, you should see 'Access your running analysis here.' as an option. Click on that link and a new browser tab will open.
+    Alternately, click the bell icon in the upper right to see your notifications, you should see 'Access your running analysis here.' as an option. Click on that link and a new browser tab will open.
 
-**5.** Having clicked on either of the hyperlinked icons in Step 4 should result in a new tab opening in your browser.
+**5.** Open new browser tab with the analysis.
 
-   Your Discovery Environment Browser tab should still be open at ``https://de.cyverse.org/de/`` 
+   The Discovery Environment tab should still be open at ``https://de.cyverse.org/de/`` 
 
-   The new URL for the App should be something like ``https://af7664685.cyverse.run/``.
+   A new URL for the analyses should be something like ``https://af7664685.cyverse.run/``.
 
-   Your app is now ready for you to begin work. 
+   When your app is ready your browser tab should appear as an RStudio-Server. 
 
-**6.** Return to your Discovery Environment Browser tab.
+**6.** Analyses options.
 
-   On the right side of the Analysis window there is an icon |dots| with three vertical dots. Click on that icon.
+   In the table of contents, click on Analyses |analyses_window| and select the check box for your running analysis. A set of options will appear on the right side.
+
+   |checkbox_options|
 
    You have multiple options available here:
 
@@ -108,21 +109,21 @@ In this section, we're going to walk through the required steps of selecting an 
 
    ``Go to output folder`` will take you to the output folder in yout ``/analyses`` Data store path. This output folder will not exist until AFTER you end the running analysis.
 
-   ``Relaunch`` -- if you have stopped your analysis, you can re-launch it with the same parameters as before. Useful for coming back to a second or third day.
+   ``Relaunch`` -- (re)launch with the same parameters
 
-   ``Rename`` You can rename your analysis
+   ``Rename`` -- rename analysis
 
-   ``Update Comments`` You can update your comments about your analysis. 
+   ``Update Comments`` -- update comments about the analysis 
 
-   ``Go to analyses`` Opens your analyses in a new window in the browser.
+   ``Go to analyses`` -- opens the analysis in a new browser tab
 
-   ``View Analysis Info`` will show you the status and Analysis ID -- this is useful when asking for support from the CyVerse team.
+   ``Extend Time Limit`` -- all apps have a set time-out which can be extended, use this feature to keep an app running for more time.
 
-   ``Share with Collaborators`` you can share your running analysis with other CyVerse users or team members. 
-
-   ``Complete and Save Outputs`` **DANGER Zone** -- when you click this, your job will be stopped and your analysis results will be copied to the ``/analyses`` folder
+   ``Terminate`` -- shut down and complete the analysis, files will be copied back to your user's `/analyses` folder
 
    ``Delete`` -- this option is only available after you have stopped your App and want to remove the information from your Analysis window
+   
+   ``Add to Bag`` -- adds analyses, files, and folders for sharing with others in your 'bag'.
 
 *Stopping a VICE app*
 ~~~~~~~~~~~~~~~~~~~~~
@@ -137,15 +138,13 @@ In this section, we're going to walk through the required steps of selecting an 
 
 **5.** Click on the icon with the three vertical dots or select the app with the check box and click on the ``Analyses`` buton in the upper left of the Analyses window.
 
-   ``Complete and Save Outputs`` **DANGER Zone** -- when you click this, your job will be stopped and your analysis results will be copied to the ``/analyses`` folder
+   ``Terminate`` **DANGER Zone** -- when you click this, your job will be stopped and your analysis results will be copied to the ``/analyses`` folder
 
-   ``Cancel`` **DANGER Zone** -- when you click this, your job will be stopped and your results will not be written back to the data store.
+   ``Delete`` **DANGER Zone** -- when you click this, your job will be stopped and your results will not be written back to the data store.
 
 **6.** Depending on how much data you have in the WORKDIR folder of the running App, the analysis may take a few minutes to complete and shut down.
 
 **7.** When the Analysis completes, you will now have the option to Delete the finished job. 
-
-
 
 ----
 
@@ -231,6 +230,9 @@ Any data which are in the working directory of ``/iplant/home/<username>/analyse
 
 .. |analyses_window| image:: ./img/de/analyses_window.png
     :width: 400
+
+.. |checkbox_options| image:: ./img/de/checkbox_options.png
+    :width: 25
 
 .. |analyses_options| image:: ./img/de/analyses_options.png
     :width: 150

@@ -136,7 +136,7 @@ In this section, we're going to walk through the required steps of selecting an 
 
 **4.** When the job ends, any data that are in other ``/temp`` or ``/home/username`` folders in the running App WILL NOT BE SAVED or written back to the Data Store.
 
-**5.** Click on the icon with the three vertical dots or select the app with the check box and click on the ``Analyses`` buton in the upper left of the Analyses window.
+**5.** Click on the icon with the three vertical dots or select the app with the check box and click on the ``More Actions`` buton.
 
    ``Terminate`` **DANGER Zone** -- when you click this, your job will be stopped and your analysis results will be copied to the ``/analyses`` folder
 

@@ -36,7 +36,7 @@ In this section, we're going to walk through the required steps of selecting an 
 
 **2.** Click the |apps_button| 'Apps' icon in the table of contents in the left frame. 
 
-   Featured Apps use verified images with the |shield| shield icon,_
+   Featured Apps use verified images with the |shield| shield icon,
 
    |apps_search1|
 
@@ -227,9 +227,8 @@ Any data which are in the working directory of ``/iplant/home/<username>/analyse
 .. |vice_loading| image:: ./img/de/vice-loading.png
     :width: 700
 
-
 .. |analyses_window| image:: ./img/de/analyses_window.png
-    :width: 400
+    :width: 700
 
 .. |checkbox_options| image:: ./img/de/checkbox_options.png
     :width: 25
@@ -238,10 +237,13 @@ Any data which are in the working directory of ``/iplant/home/<username>/analyse
     :width: 150
 
 .. |add_data_window1| image:: ./img/de/add_data_window1.png
-    :width: 400
+    :width: 700
 
 .. |add_data_window2| image:: ./img/de/add_data_window2.png
-    :width: 400
+    :width: 700
+
+.. |vice_loading| image:: ./img/de/vice_loading.png
+    :width: 700    
 
 .. |rstudio-geospatial-latest| image:: https://img.shields.io/badge/Geospatial-latest-blue?style=plastic&logo=rstudio
 .. _rstudio-geospatial-latest: https://de.cyverse.org/apps/de/07e2b2e6-becd-11e9-b524-008cfa5ae621/launch

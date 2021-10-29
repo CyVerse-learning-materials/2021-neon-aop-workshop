@@ -231,7 +231,7 @@ Any data which are in the working directory of ``/iplant/home/<username>/analyse
     :width: 700
 
 .. |checkbox_options| image:: ./img/de/checkbox_options.png
-    :width: 25
+    :width: 400
 
 .. |analyses_options| image:: ./img/de/analyses_options.png
     :width: 150

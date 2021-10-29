@@ -188,13 +188,9 @@ These Apps are yours to use! You can install new packages and software into them
 
 **9.** Click the |apps_button| icon labeled **Apps** 
 
-**10.** Under **Categories** and "My Apps" and "My Communities" you should see a group called NEON
+**10.** Under **Featured Apps** select the RStudio Geospatial Latest
 
-|neon_community|
-
-**11.** In the group are a couple of shared apps with the |beta| tag. 
-
-  In the next section, we're going to go over starting one of these apps, and beginning an Analysis, which you can view using the |analyses_button| icon labeled 'Analyses'
+|apps_search1|
 
 *Analyses*
 ~~~~~~~~~~
@@ -271,6 +267,9 @@ You should now understand the basics of the Classic Discovery Environment Interf
 .. |apps_button| image:: ./img/de/apps_icon.png
     :width: 25
     :height: 25
+
+.. |apps_search1| image:: ./img/de/apps_search1.png
+    :width: 700
 
 .. |data_button| image:: ./img/de/data_icon.png
     :width: 25

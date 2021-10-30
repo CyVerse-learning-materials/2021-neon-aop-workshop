@@ -51,7 +51,7 @@ We have also integrated an all-in-one container which supports a desktop environ
 
    For our use case today, we're going to add a folder from the data store.
 
-  |add_data_window3|
+  |add_data_window2|
 
    Add the path: ``/iplant/home/shared/NEON_workshop/`` 
 
@@ -155,16 +155,16 @@ Note, there are pre-completed ``.ipynb`` notebooks in the ``/tutorials`` folder 
     :height: 25
 
 .. |analyses_window| image:: ./img/de/analyses_window.png
-    :width: 400
+    :width: 700
 
 .. |analyses_options| image:: ./img/de/analyses_options.png
     :width: 150
 
 .. |add_data_window1| image:: ./img/de/add_data_window1.png
-    :width: 400
+    :width: 700
 
-.. |add_data_window3| image:: ./img/de/add_data_window3.png
-    :width: 400
+.. |add_data_window2| image:: ./img/de/add_data_window2.png
+    :width: 700
 
 .. |workspace-geospatial-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
 .. _workspace-geospatial-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=b19b3b00-0b6f-4c28-9d0f-23c965264309&app-id=580bbc6e-161e-11eb-880c-008cfa5ae621

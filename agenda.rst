@@ -19,6 +19,18 @@ As we run out of time for each section, you can go back and complete the materia
 
 ----
 
+**In-Person Location:**
+
+.. list-table::
+    :header-rows: 1
+    
+    * - building 
+      - room
+      - directions
+    * - TBA
+      - TBA
+      - TBA
+
 **Zoom Info:**
 
 .. list-table::

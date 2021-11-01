@@ -27,9 +27,9 @@ As we run out of time for each section, you can go back and complete the materia
     * - building 
       - room
       - directions
-    * - TBA
-      - TBA
-      - TBA
+    * - ENR2
+      - N595
+      - `Google Maps <https://goo.gl/maps/tovzkFwqHrwvaxVj9>`_
 
 **Zoom Info:**
 

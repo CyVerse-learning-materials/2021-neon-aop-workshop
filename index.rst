@@ -9,7 +9,7 @@
 **CyVerse NEON Airborne Observation Platform Workshop**
 =======================================================
 
-**Location:**
+**Location: ENR2 Room N595**
 
 **Times: 09:00 - 17:00 MST, UTC-7**
 

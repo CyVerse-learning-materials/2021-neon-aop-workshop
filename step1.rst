@@ -121,7 +121,7 @@ CyVerse started out with the project name "iPlant Collaborative", and our data s
           
       /iplant/home/shared/NEON_workshop/data
    
-   There are some sample NEON AOP Data in here that we'll get to tomorrow.
+   There are some sample NEON AOP Data in here that we'll get to this afternoon.
    
    There are many more Community Data folders in CyVerse that you cannot see -- that's because they have not been shared with the 'Public' or 'Anonymous' user groups.
 

@@ -30,9 +30,10 @@ In this section, we're going to walk through the required steps of selecting an 
 
 **1.** Log into the Discovery Environment `https://de.cyverse.org <https://de.cyverse.org>`_
 
-   If you click this Quick Launch button you will be taken directly to the RStudio Geospatial featured app:
+   If you click this Quick Launch button you will be taken directly to the featured app:
 
    - RStudio Geospatial Latest: |rstudio-geospatial-latest|_
+   - Jupyter Lab Geospatial v2.2.9: |jupyterlab-geospatial|_
 
 **2.** Click the |apps_button| 'Apps' icon in the table of contents in the left frame. 
 
@@ -247,6 +248,9 @@ Any data which are in the working directory of ``/iplant/home/<username>/analyse
 
 .. |rstudio-geospatial-latest| image:: https://img.shields.io/badge/Geospatial-latest-blue?style=plastic&logo=rstudio
 .. _rstudio-geospatial-latest: https://de.cyverse.org/apps/de/07e2b2e6-becd-11e9-b524-008cfa5ae621/launch
+
+.. |jupyterlab-geospatial| image:: https://img.shields.io/badge/Geospatial-2.2.9-orange?style=plastic&logo=jupyter
+.. _jupyterlab-geospatial: https://de.cyverse.org/apps/de/5eb08814-6b1a-11eb-9180-008cfa5ae621/launch
 
 .. |Github Repo Link|  raw:: html
 

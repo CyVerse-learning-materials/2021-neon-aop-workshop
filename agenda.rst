@@ -72,7 +72,7 @@ As we run out of time for each section, you can go back and complete the materia
     - Intro to NEON Data API
     - Bridget
     - Download and Explore NEON Data
-    - `https://www.neonscience.org/resources/learning-hub/tutorials/neon-api-01-introduction-requests <https://www.neonscience.org/resources/learning-hub/tutorials/neon-api-01-introduction-requests>`_
+    - `Introduction to NEON Data in Python using Jupyter Labs <https://github.com/bridgethass/CyverseNEON>`_
   * - 1045-1100
     - Break
     -

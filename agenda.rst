@@ -38,10 +38,9 @@ As we run out of time for each section, you can go back and complete the materia
 
     * - URL
       - Meeting ID
-      - Password
-    * - `Zoom US <>`_ 
-      - 
-      - ``cyverse``
+    * - `Zoom US <https://arizona.zoom.us/j/82230449724>`_ 
+      - 82230449724 
+
 
 *2021-11-19*
 ~~~~~~~~~~~~~~~~~~~

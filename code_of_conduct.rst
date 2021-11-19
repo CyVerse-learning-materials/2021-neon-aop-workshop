@@ -6,9 +6,15 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
+**University of Arizona COVID-19 Mandates**
+===========================================
+
+The University of Arizona mandates that all individuals wear masks in indoor spacing when distancing is not possible. We will adhear to all UA Policies during the in-person workshop.
+
+`COVID Latest Updates <https://covid19.arizona.edu/updates>`_
 
 **Code of Conduct**
-============================
+====================
 
 All attendees, speakers, sponsors and volunteers are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe, inclusive, and collaborative environment for everybody.
 

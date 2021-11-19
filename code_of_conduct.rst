@@ -7,9 +7,8 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 **University of Arizona COVID-19 Mandates**
-===========================================
 
-The University of Arizona mandates that all individuals wear masks in indoor spaces when distancing is not possible. We will adhere to all relevant policies during the in-person section of the workshop.
+The University of Arizona mandates all individuals wear masks while indoors and when distancing is not possible. We will adhere to all relevant policies during the in-person section of the workshop.
 
 `COVID Latest Updates <https://covid19.arizona.edu/updates>`_
 

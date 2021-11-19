@@ -9,7 +9,7 @@
 **University of Arizona COVID-19 Mandates**
 ===========================================
 
-The University of Arizona mandates that all individuals wear masks in indoor spacing when distancing is not possible. We will adhear to all UA Policies during the in-person workshop.
+The University of Arizona mandates that all individuals wear masks in indoor spaces when distancing is not possible. We will adhere to all relevant policies during the in-person section of the workshop.
 
 `COVID Latest Updates <https://covid19.arizona.edu/updates>`_
 
